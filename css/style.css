@@ -14,3 +14,23 @@
 footer{
     background-color: #181A1B;
 }
+
+footer i:hover{
+    color: #A3A3A3 !important;
+}
+
+a{
+    color: ghostwhite !important;
+}
+a:hover{
+    color: #A3A3A3 !important;
+}
+
+.dropdown-menu{
+    background-color: #06283d80;
+}
+
+.dropdown-item:hover{
+    background-color: #dff6ffb6;
+    color: whitesmoke !important;
+}
