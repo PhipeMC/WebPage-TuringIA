@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Euclid A;
+    src: url("../fonts/euclid-circular-a-cufonfonts/Euclid\ Circular\ A\ Regular.ttf"),
+        url("../fonts/euclid-circular-a-cufonfonts/Euclid\ Circular\ A\ Medium.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Euclid A", sans-serif;
+}
+
+footer{
+    background-color: #181A1B;
+}
