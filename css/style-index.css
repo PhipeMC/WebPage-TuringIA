@@ -1,5 +1,58 @@
-.startView{
-    background-image: url("../img/pexels-s-l-v-12004185.jpg");
-    background-size: cover;
-    background-position: center;
+body {
+    background-color: #212529;
+}
+
+nav {
+    background-color: transparent;
+}
+
+.startView {
+    background-image: url("../img/img-main-menu.jpg");
+}
+
+#search-input {
+    background-color: rgba(255, 255, 255, 0.727) !important;
+    color: rgba(0, 0, 0, 0.698);
+}
+
+#search-input::placeholder {
+    color: rgba(0, 0, 0, 0.698);
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 32rem;
+}
+
+.fw-shadow {
+    text-shadow: 2px 0 0 rgba(0, 0, 0, 0.698), -2px 0 0 rgba(0, 0, 0, 0.698), 
+    0 2px 0 rgba(0, 0, 0, 0.698), 0 -2px 0 rgba(0, 0, 0, 0.698), 1px 1px rgba(0, 0, 0, 0.698), 
+    -1px -1px 0 rgba(0, 0, 0, 0.698), 1px -1px 0 rgba(0, 0, 0, 0.698), -1px 1px 0 rgba(0, 0, 0, 0.698);
+}
+
+.img-blur {
+    filter: blur(1px);
+    filter: brightness(0.5);
+    -webkit-filter: blur(1px);
+    -webkit-filter: brightness(0.5);
+}
+
+.bg-mid-dark {
+    background-color: rgba(0, 0, 0, 0.071) !important;
+}
+
+@media (min-width: 40em) {
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
 }
