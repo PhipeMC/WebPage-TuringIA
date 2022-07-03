@@ -11,44 +11,49 @@
     font-family: "Euclid A", sans-serif;
 }
 
-nav{
+body {
+    background-color: #212529;
+}
+
+nav {
     background-color: transparent;
 }
 
-footer{
+footer {
     background-color: #181A1B;
 }
 
-footer i:hover{
+footer i:hover {
     color: #A3A3A3 !important;
 }
 
-a{
+a {
     color: ghostwhite !important;
 }
-a:hover{
+
+a:hover {
     color: #A3A3A3 !important;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     background-color: #06283d80;
 }
 
-.dropdown-item:hover{
-    background-color: #dff6ffb6;
+.dropdown-item:hover {
+    background-color: #a3a3a3c0;
     color: whitesmoke !important;
 }
 
-.footer-bg{
+.footer-bg {
     background-color: #1363DF;
 }
 
-.message-button{
-    position:fixed;
-	width:60px;
-	height:60px;
-	bottom:50px;
-	right:50px;
+.message-button {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 50px;
+    right: 50px;
     font-size: 2.4rem;
 }
 
@@ -58,12 +63,35 @@ a:hover{
 }
 
 @media (max-width: 768px) {
-    .message-button{
-        position:fixed;
-        width:60px;
-        height:60px;
-        bottom:40px;
-        right:40px;
+    .message-button {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
         font-size: 2.4rem;
     }
+}
+
+.modal-content {
+    background-image: url("../img/img-modal.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.fs-icon {
+    font-size: 4rem;
+    color: #06283D;
+}
+
+.fs-modal-title {
+    color: rgba(0, 0, 0, 0.698);
+}
+
+.input-modal {
+    background-color: rgba(255, 255, 255, 0.533);
+}
+
+.modal-bg-icon{
+    background-color: #06283D;
 }

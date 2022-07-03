@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-services.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 
 <body>
     <div class="startView">
-        <nav class="navbar navbar-expand-md pt-3 pb-3 sticky-sm-top">
+        <nav class="navbar navbar-expand-lg pt-3 pb-3 sticky-sm-top">
             <div class="container justify-content-between">
                 <a href="/" class="text-dark text-decoration-none nav-brand">
                     <h1 class="fw-bold m-0 fs-1 fs-md-3 text-light">Turing-IA</h1>
@@ -34,25 +35,25 @@
                             <ul class="dropdown-menu list-unstyled mb-0" aria-labelledby="services-menu"
                                 data-bs-popper="static" id="services-dropdown">
                                 <li>
-                                    <a href="#" class="dropdown-item d-flex align-items-center gap-2 py-2">Buisness
+                                    <a href="services.html#services-business" class="dropdown-item d-flex align-items-center gap-2 py-2">Buisness
                                         Analyst</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="dropdown-item d-flex align-items-center gap-2 py-2">Workshop</a>
+                                    <a href="services.html#services-workshop" class="dropdown-item d-flex align-items-center gap-2 py-2">Workshop</a>
                                 </li>
                                 <li>
-                                    <a href="#"
+                                    <a href="services.html#services-cap"
                                         class="dropdown-item d-flex align-items-center gap-2 py-2">Capacitación</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="dropdown-item d-flex align-items-center gap-2 py-2">Venta de
+                                    <a href="services.html#services-software" class="dropdown-item d-flex align-items-center gap-2 py-2">Venta de
                                         Software</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="dropdown-item d-flex align-items-center gap-2 py-2">Hardware</a>
+                                    <a href="services.html#services-hardware" class="dropdown-item d-flex align-items-center gap-2 py-2">Hardware</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="dropdown-item d-flex align-items-center gap-2 py-2">Balanced
+                                    <a href="services.html#services-scorecard" class="dropdown-item d-flex align-items-center gap-2 py-2">Balanced
                                         Scorecard</a>
                                 </li>
                             </ul>
@@ -63,29 +64,30 @@
                             <ul class="dropdown-menu list-unstyled mb-0" aria-labelledby="tableau-menu"
                                 data-bs-popper="static" id="tableau-dropdown">
                                 <li>
-                                    <a href="" class="dropdown-item d-flex align-items-center gap-2 py-2">Desktop</a>
+                                    <a href="tableau.html#tableau-desktop" class="dropdown-item d-flex align-items-center gap-2 py-2">Desktop</a>
                                 </li>
                                 <li>
-                                    <a href="" class="dropdown-item d-flex align-items-center gap-2 py-2">Prep</a>
+                                    <a href="tableau.html#tableau-prep" class="dropdown-item d-flex align-items-center gap-2 py-2">Prep</a>
                                 </li>
                                 <li>
-                                    <a href="" class="dropdown-item d-flex align-items-center gap-2 py-2">Cloud</a>
+                                    <a href="tableau.html#tableau-cloud" class="dropdown-item d-flex align-items-center gap-2 py-2">Cloud</a>
                                 </li>
                                 <li>
-                                    <a href="" class="dropdown-item d-flex align-items-center gap-2 py-2">Server</a>
+                                    <a href="tableau.html#tableau-server" class="dropdown-item d-flex align-items-center gap-2 py-2">Server</a>
                                 </li>
                                 <li>
-                                    <a href="" class="dropdown-item d-flex align-items-center gap-2 py-2">Server
+                                    <a href="tableau.html#tableau-servermag" class="dropdown-item d-flex align-items-center gap-2 py-2">Server
                                         Management</a>
                                 </li>
                                 <li>
-                                    <a href="" class="dropdown-item d-flex align-items-center gap-2 py-2">Data
+                                    <a href="tableau.html#tableau-data" class="dropdown-item d-flex align-items-center gap-2 py-2">Data
                                         Management</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="#contact" class="nav-link px-4 fw-bold fs-5">Contacto</a>
+                            <a href="#contact" class="nav-link px-4 fw-bold fs-5" data-bs-toggle="modal"
+                                data-bs-target="#contact-modal">Contacto</a>
                         </li>
                     </ul>
                     <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
@@ -98,8 +100,122 @@
                 </div>
             </div>
         </nav>
+        <section>
+            <div class="px-4 pt-5 mt-5 text-center border-bottom container">
+                <h1 class="mt-5 fs-4 text-uppercase text-light fw-bold">Servicios</h1>
+                <h2 class="display-4 fw-bold fs-0 text-light">Tenemos una gran gama de soluciones para llevar al máximo
+                    el nivel tu compañia</h2>
+                <div class="overflow-hidden spacing-menu" style="min-height: 25vh;"></div>
+            </div>
+        </section>
     </div>
 
+    <section class="container">
+        <div class="p-5 mb-4 rounded-3">
+            <div class="container-fluid py-5 text-light">
+                <h1 class="display-5 fw-bold mb-3 mb-sm-3 text-primary">¿Qué ofrecemos?</h1>
+                <p class="col-md-8 fs-4">
+                    Proporcionamos a nuestros clientes una gama de productos y servicios relacionados con el analisis de
+                    datos, mediante el uso de tecnologias como Tableau, Salesforce, PMI, Scrum.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-4" id="services-business">
+        <div class="m-5">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3">
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3 order-1">
+                    <h1 class="display-4 fw-bold lh-1 text-primary">Business Analyst</h1>
+                    <p class="lead text-light fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
+                        placeat quisquam dolores deleniti distinctio, illum sequi tenetur qui optio modi error est
+                        laborum, provident nobis, unde repellat nihil? Adipisci, quisquam.</p>
+                </div>
+                <div class="col-lg-4 offset-lg-0 p-0 overflow-hidden shadow-lg order-0" data-aos="fade-down">
+                    <img class="rounded" src="img/img-serv-business.jpg" alt="" width="720" height="480">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-4" id="services-workshop">
+        <div class="m-5">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3">
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                    <h1 class="display-4 fw-bold lh-1 text-primary">Workshop</h1>
+                    <p class="lead text-light fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
+                        placeat quisquam dolores deleniti distinctio, illum sequi tenetur qui optio modi error est
+                        laborum, provident nobis, unde repellat nihil? Adipisci, quisquam.</p>
+                </div>
+                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg" data-aos="fade-down">
+                    <img class="rounded" src="img/img-work.jpg" alt="" width="720" height="480">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-4" id="services-cap">
+        <div class="m-5">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3">
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3 order-1">
+                    <h1 class="display-4 fw-bold lh-1 text-primary">Capacitación</h1>
+                    <p class="lead text-light fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
+                        placeat quisquam dolores deleniti distinctio, illum sequi tenetur qui optio modi error est
+                        laborum, provident nobis, unde repellat nihil? Adipisci, quisquam.</p>
+                </div>
+                <div class="col-lg-4 offset-lg-0 p-0 overflow-hidden shadow-lg order-0" data-aos="fade-down">
+                    <img class="rounded" src="img/img-serv-cap.jpg" alt="" width="720" height="480">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-4" id="services-software">
+        <div class="m-5">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3">
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                    <h1 class="display-4 fw-bold lh-1 text-primary">Venta de Software</h1>
+                    <p class="lead text-light fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
+                        placeat quisquam dolores deleniti distinctio, illum sequi tenetur qui optio modi error est
+                        laborum, provident nobis, unde repellat nihil? Adipisci, quisquam.</p>
+                </div>
+                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg" data-aos="fade-down">
+                    <img class="rounded" src="img/img-soft-dev.jpg" alt="" width="720" height="480">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-4" id="services-hardware">
+        <div class="m-5">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3">
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3 order-1">
+                    <h1 class="display-4 fw-bold lh-1 text-primary">Hardware</h1>
+                    <p class="lead text-light fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
+                        placeat quisquam dolores deleniti distinctio, illum sequi tenetur qui optio modi error est
+                        laborum, provident nobis, unde repellat nihil? Adipisci, quisquam.</p>
+                </div>
+                <div class="col-lg-4 offset-lg-0 p-0 overflow-hidden shadow-lg order-0" data-aos="fade-down">
+                    <img class="rounded" src="img/img-serv-hardware.jpg" alt="" width="720" height="480">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-4" id="services-scorecard">
+        <div class="m-5">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3">
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                    <h1 class="display-4 fw-bold lh-1 text-primary">Balanced Scorecard</h1>
+                    <p class="lead text-light fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
+                        placeat quisquam dolores deleniti distinctio, illum sequi tenetur qui optio modi error est
+                        laborum, provident nobis, unde repellat nihil? Adipisci, quisquam.</p>
+                </div>
+                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg " data-aos="fade-down">
+                    <!-- <img class="rounded" src="https://turing-ia.com/assets/img/balance-scorecard.jpg" alt="" width="720" height="480"> -->
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer class="pt-5">
         <div class="container pb-3">
@@ -117,9 +233,8 @@
                         <h5 class="fs-3 border-bottom border-1 pb-2 mb-4 text-light"><a href="about.html"
                                 class="text-decoration-none">Nosotros</a></h5>
                         <h5 class="fs-3 border-bottom border-1 pb-2 mb-4 text-light"><a href="#contact"
+                                data-bs-toggle="modal" data-bs-target="#contact-modal"
                                 class="text-decoration-none">Contacto</a></h5>
-                        <h5 class="fs-3 border-bottom border-1 pb-2 mb-4 text-light"><a href=""
-                                class="text-decoration-none">FAQs</a></h5>
                     </div>
 
                     <div class="col-6 col-md-4 mb-3 order-1 order-sm-2">
@@ -176,6 +291,62 @@
             </ul>
         </div>
     </footer>
+
+    <div class="modal fade" id="contact-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content overflow-visible">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-column flex-sm-row justify-content-evenly align-items-center">
+                    <div class="py-5 text-center w-100">
+                        <i class="bi bi-cpu-fill d-block mx-auto mb-2 fs-icon"></i>
+                        <h2 class="fs-1 fw-bold">Turing-IA</h2>
+                        <p class="lead fs-2 fs-modal-title">Hablemos sobre nuestro siguiente gran proyecto.</p>
+                    </div>
+                    <div class="w-100 px-2 px-sm-5">
+                        <form action="">
+                            <div class="d-flex">
+                                <input type="text" class="form-control input-modal my-sm-3 my-2"
+                                    placeholder="Nombre completo" required>
+                            </div>
+
+                            <div>
+                                <div class="input-group my-sm-3 my-2">
+                                    <span class="input-group-text modal-bg-icon" id="email-span"><i
+                                            class="bi bi-at text-light"></i></span>
+                                    <input type="email" class="form-control input-modal"
+                                        placeholder="Correo electrónico" aria-label="email"
+                                        aria-describedby="email-span" required>
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-column flex-sm-row">
+                                <div class="input-group my-sm-3 w-100 me-sm-2 my-2">
+                                    <span class="input-group-text modal-bg-icon" id="phone-span"><i
+                                            class="bi bi-telephone-fill text-light"></i></span>
+                                    <input type="tel" class="form-control input-modal"
+                                        placeholder="Numero fijo o celular" aria-label="phone-number"
+                                        aria-describedby="phone-span" required>
+                                </div>
+
+                                <div class="my-sm-3 w-100 ms-sm-2 my-2">
+                                    <input type="text" class="form-control input-modal"
+                                        placeholder="Empresa (Opcional)">
+                                </div>
+                            </div>
+
+                            <div class="my-sm-3 my-2">
+                                <textarea class="form-control input-modal" placeholder="Ingrese su mensaje aquí..."
+                                    required style="resize: none; height: 100px;"></textarea>
+                            </div>
+                            <button class="btn btn-primary w-100 mt-2" type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <a href="https://api.whatsapp.com/send?phone=527225336638&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n."
         target="_blank">

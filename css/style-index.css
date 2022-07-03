@@ -1,11 +1,3 @@
-body {
-    background-color: #212529;
-}
-
-nav {
-    background-color: transparent;
-}
-
 .startView {
     background-image: url("../img/img-main-menu.jpg");
 }
@@ -29,7 +21,7 @@ nav {
 }
 
 .carousel-item {
-    height: 32rem;
+    height: 36rem;
 }
 
 .fw-shadow {
